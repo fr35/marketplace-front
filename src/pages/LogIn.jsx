@@ -1,12 +1,12 @@
-import FormSignUp from "../components/SignUp/Form";
+import FacebookBtn from "../components/BtnPassport/Facebook";
 import GithubBtn from "../components/BtnPassport/Github";
 import GoogleBtn from "../components/BtnPassport/Google";
 import TwitterBtn from "../components/BtnPassport/Twitter";
-import FacebookBtn from "../components/BtnPassport/Facebook";
-export default function SignUp() {
+import FormLogIn from "../components/LogIn/Form";
+export default function LogIn() {
     return (
         <div>
-            <FormSignUp></FormSignUp>
+            <FormLogIn></FormLogIn>
             <GithubBtn></GithubBtn>
             <FacebookBtn></FacebookBtn>
             <GoogleBtn></GoogleBtn>
